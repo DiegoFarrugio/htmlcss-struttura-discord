@@ -4,3 +4,48 @@
     box-sizing: border-box;
 }
 
+.container-all{
+    width: 100%;
+    margin: auto;
+}
+
+.header-container-1{
+    min-height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.sotto-container-header-1{
+    width: 50%;
+    min-height: 20px;
+    margin: auto;
+    background-color: orange;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.span-1, .span-2, .span-3 {
+    display: flex;
+    border: 3px dashed black;
+}
+
+.header-container-2{
+    min-height: 600px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sotto-container-header-2{
+    width: 60%;
+    min-height: 500px;
+    background-color: pink;
+    border: 3px dashed black;
+    margin: auto;
+}
